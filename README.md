@@ -8,8 +8,8 @@ final booking data before completing the booking.
 
 Welcome to the JBoss BPM Travel Agency!
 
-Option 1 - Install on your machine
-----------------------------------
+Install on your machine
+-----------------------
 1. [Download and unzip.](https://github.com/eschabell/jboss-bpm-in-action-travel-agency-demo/archive/master.zip)
 
 2. Add products to installs directory. For example download and add BPMS installer jar into the installs directory.
@@ -23,38 +23,6 @@ Option 1 - Install on your machine
     ```
      - login for admin and other roles (u:erics / p:bpmsuite1!)
     ```
-
-`
-Option 2 - Generate containerized installation
-----------------------------------------------
-The following steps can be used to configure and run the demo in a container
-
-1. [Download and unzip.](https://github.com/eschabell/jboss-bpm-in-action-travel-agency-demo/archive/master.zip)
-
-2. Add product installer to installs directory. For example download and add BPMS installer jar into the installs directory.
-
-3. Copy contents of support/docker directory to the project root.
-
-4. Build demo image
-
-	```
-	docker build -t eschabell/jboss-bpm-in-action-travel-agency-demo .
-	```
-5. Start demo container
-
-	```
-	docker run -it -p 8080:8080 -p 9990:9990 eschabell/jboss-bpm-in-action-travel-agency-demo
-	```
-6. Login to http://&lt;DOCKER_HOST&gt;:8080/business-central
-  
-    ```
-     - login for admin and other roles (u:erics / p:bpmsuite1!)
-    ```
-    
-*Note*: Replace localhost with DOCKER_HOST when it appears in other locations within the documentation
-
-Additional information can be found in the eschabell docker [developer repository](https://github.com/eschabell/docker-developer)
-
 
 Booking a trip to Edinburgh (just one scenario)
 -----------------------------------------------
