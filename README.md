@@ -1,7 +1,5 @@
-JBoss BPM in Action: JBoss BPM Suite Travel Agency Demo
-=======================================================
-This project is showcased in the Manning book JBoss BPM in Action:
-
+JBoss BPM Suite Travel Agency Demo
+==================================
 This is an online employee travel booking process project. It contains multiple web services for looking up data for the process
 and rules to calculate pricing. Furthermore, there are several tasks that can be activated to evaluate pricing and to review the
 final booking data before completing the booking.
@@ -10,7 +8,7 @@ Welcome to the JBoss BPM Travel Agency!
 
 Install on your machine
 -----------------------
-1. [Download and unzip.](https://github.com/eschabell/jboss-bpm-in-action-travel-agency-demo/archive/master.zip)
+1. [Download and unzip.](https://github.com/jbossdemocentral/bpms-travel-agency-demo/archive/master.zip)
 
 2. Add products to installs directory. For example download and add BPMS installer jar into the installs directory.
 
@@ -23,6 +21,7 @@ Install on your machine
     ```
      - login for admin and other roles (u:erics / p:bpmsuite1!)
     ```
+
 
 Booking a trip to Edinburgh (just one scenario)
 -----------------------------------------------
@@ -112,28 +111,27 @@ Released versions
 -----------------
 See the tagged releases for the following versions of the product:
 
-- v1.0 - JBoss BPM Suite 6.2.0-BZ-1299002 on JBoss EAP 6.4.4 with travel agency installed.
+- v1.0 - JBoss BPM Suite 6.2, JBoss EAP 6.4.4 and travel agency installed.
 
+[![Video part 1](https://github.com/jbossdemocentral/bpms-travel-agency-demo/blob/master/docs/demo-images/video-part-1.png?raw=true)](http://vimeo.com/ericschabell/bpms-travel-agency-part-1)
 
-[![Video part 1](https://github.com/eschabell/jboss-bpm-in-action-travel-agency-demo/blob/master/docs/demo-images/video-part-1.png?raw=true)](http://vimeo.com/ericschabell/bpms-travel-agency-part-1)
+[![Video part 2](https://github.com/jbossdemocentral/bpms-travel-agency-demo/blob/master/docs/demo-images/video-part-2.png?raw=true)](http://vimeo.com/ericschabell/bpms-travel-agency-part-2)
 
-[![Video part 2](https://github.com/eschabell/jboss-bpm-in-action-travel-agency-demo/blob/master/docs/demo-images/video-part-2.png?raw=true)](http://vimeo.com/ericschabell/bpms-travel-agency-part-2)
+[![Video part 3](https://github.com/jbossdemocentral/bpms-travel-agency-demo/blob/master/docs/demo-images/video-part-3.png?raw=true)](http://vimeo.com/ericschabell/bpms-travel-agency-part-3)
 
-[![Video part 3](https://github.com/eschabell/jboss-bpm-in-action-travel-agency-demo/blob/master/docs/demo-images/video-part-3.png?raw=true)](http://vimeo.com/ericschabell/bpms-travel-agency-part-3)
+[![Video part 3](https://github.com/jbossdemocentral/bpms-travel-agency-demo/blob/master/docs/demo-images/video-part-4.png?raw=true)](http://vimeo.com/ericschabell/bpms-travel-agency-part-4)
 
-[![Video part 3](https://github.com/eschabell/jboss-bpm-in-action-travel-agency-demo/blob/master/docs/demo-images/video-part-4.png?raw=true)](http://vimeo.com/ericschabell/bpms-travel-agency-part-4)
+![Cloud Sign](https://github.com/jbossdemocentral/bpms-travel-agency-demo/blob/master/docs/demo-images/cloud-sign.jpg?raw=true)
 
-![Cloud Sign](https://github.com/eschabell/jboss-bpm-in-action-travel-agency-demo/blob/master/docs/demo-images/cloud-sign.jpg?raw=true)
+![Digital Sign](https://github.com/jbossdemocentral/bpms-travel-agency-demo/blob/master/docs/demo-images/announce-sign.jpg?raw=true)
 
-![Digital Sign](https://github.com/eschabell/jboss-bpm-in-action-travel-agency-demo/blob/master/docs/demo-images/announce-sign.jpg?raw=true)
+![Agency Process](https://github.com/jbossdemocentral/bpms-travel-agency-demo/blob/master/docs/demo-images/agency-process.png?raw=true)
 
-![Agency Process](https://github.com/eschabell/jboss-bpm-in-action-travel-agency-demo/blob/master/docs/demo-images/agency-process.png?raw=true)
+![Calculate Process](https://github.com/jbossdemocentral/bpms-travel-agency-demo/blob/master/docs/demo-images/calculate-process.png?raw=true)
 
-![Calculate Process](https://github.com/eschabell/jboss-bpm-in-action-travel-agency-demo/blob/master/docs/demo-images/calculate-process.png?raw=true)
+![Compensation](https://raw.githubusercontent.com/jbossdemocentral/bpms-travel-agency-demo/master/docs/demo-images/compensation-process.png?raw=true)
 
-![Compensation](https://raw.githubusercontent.com/eschabell/jboss-bpm-in-action-travel-agency-demo/master/docs/demo-images/compensation-process.png?raw=true)
+![Special Trips UI Form](https://raw.githubusercontent.com/jbossdemocentral/bpms-travel-agency-demo/master/docs/demo-images/SpecialTripsUIform.png)
 
-![Special Trips UI Form](https://raw.githubusercontent.com/eschabell/jboss-bpm-in-action-travel-agency-demo/master/docs/demo-images/SpecialTripsUIform.png)
-
-![Started Process](https://raw.githubusercontent.com/eschabell/jboss-bpm-in-action-travel-agency-demo/master/docs/demo-images/started-process.png)
+![Started Process](https://raw.githubusercontent.com/jbossdemocentral/bpms-travel-agency-demo/master/docs/demo-images/started-process.png)
 

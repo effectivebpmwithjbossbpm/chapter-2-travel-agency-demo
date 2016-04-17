@@ -2,10 +2,10 @@
 setlocal
 
 set PROJECT_HOME=%~dp0
-set DEMO=JBoss BPM Travel Agency Demo
+set DEMO=Travel Agency Demo
 set AUTHORS=Nirja Patel, Shepherd Chengeta,
 set AUTHORS2=Andrew Block, Eric D. Schabell
-set PROJECT=git@github.com:eschabell/jboss-bpm-in-action-travel-agency-demo.git
+set PROJECT=git@github.com:jbossdemocentral/bpms-travel-agency-demo.git
 set PRODUCT=JBoss BPM Suite
 set VERSION=6.2
 set JBOSS_HOME=%PROJECT_HOME%target\jboss-bpmsuite-%VERSION%
@@ -23,25 +23,25 @@ REM wipe screen.
 cls
 
 echo.
-echo ##########################################################################
-echo ##                                                                      ##   
-echo ##  Setting up the %DEMO%                         ##
-echo ##                                                                      ##   
-echo ##                                                                      ##   
-echo ##     ####  ####   #   #      ### #   # ##### ##### #####              ##
-echo ##     #   # #   # # # # #    #    #   #   #     #   #                  ##
-echo ##     ####  ####  #  #  #     ##  #   #   #     #   ###                ##
-echo ##     #   # #     #     #       # #   #   #     #   #                  ##
-echo ##     ####  #     #     #    ###  ##### #####   #   #####              ##
-echo ##                                                                      ##   
-echo ##                                                                      ##   
-echo ##  brought to you by,                                                  ##   
-echo ##                     %AUTHORS%                    ##
-echo ##                       %AUTHORS2%                   ##
-echo ##                                                                      ##   
-echo ##  %PROJECT%  ##
-echo ##                                                                      ##   
-echo ##########################################################################
+echo #################################################################
+echo ##                                                             ##   
+echo ##  Setting up the %DEMO%                          ##
+echo ##                                                             ##   
+echo ##                                                             ##   
+echo ##     ####  ####   #   #      ### #   # ##### ##### #####     ##
+echo ##     #   # #   # # # # #    #    #   #   #     #   #         ##
+echo ##     ####  ####  #  #  #     ##  #   #   #     #   ###       ##
+echo ##     #   # #     #     #       # #   #   #     #   #         ##
+echo ##     ####  #     #     #    ###  ##### #####   #   #####     ##
+echo ##                                                             ##   
+echo ##                                                             ##   
+echo ##  brought to you by,                                         ##   
+echo ##                     %AUTHORS%           ##
+echo ##                       %AUTHORS2%          ##
+echo ##                                                             ##   
+echo ##  %PROJECT%##
+echo ##                                                             ##   
+echo #################################################################
 echo.
 
 REM make some checks first before proceeding.	
