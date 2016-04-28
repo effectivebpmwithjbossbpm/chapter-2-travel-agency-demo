@@ -115,14 +115,6 @@ See the tagged releases for the following versions of the product:
 
 - v1.0 - JBoss BPM Suite 6.2, JBoss EAP 6.4.4 and travel agency installed.
 
-[![Video part 1](https://github.com/eschabell/jboss-bpm-in-action-travel-agency-demo/blob/master/docs/demo-images/video-part-1.png?raw=true)](http://vimeo.com/ericschabell/jboss-bpm-in-action-travel-agency-part-1)
-
-[![Video part 2](https://github.com/eschabell/jboss-bpm-in-action-travel-agency-demo/blob/master/docs/demo-images/video-part-2.png?raw=true)](http://vimeo.com/ericschabell/jboss-bpm-in-action-travel-agency-part-2)
-
-[![Video part 3](https://github.com/eschabell/jboss-bpm-in-action-travel-agency-demo/blob/master/docs/demo-images/video-part-3.png?raw=true)](http://vimeo.com/ericschabell/jboss-bpm-in-action-travel-agency-part-3)
-
-[![Video part 3](https://github.com/eschabell/jboss-bpm-in-action-travel-agency-demo/blob/master/docs/demo-images/video-part-4.png?raw=true)](http://vimeo.com/ericschabell/jboss-bpm-in-action-travel-agency-part-4)
-
 ![Agency Process](https://github.com/eschabell/jboss-bpm-in-action-travel-agency-demo/blob/master/docs/demo-images/agency-process.png?raw=true)
 
 ![Calculate Process](https://github.com/eschabell/jboss-bpm-in-action-travel-agency-demo/blob/master/docs/demo-images/calculate-process.png?raw=true)
@@ -132,4 +124,13 @@ See the tagged releases for the following versions of the product:
 ![Special Trips UI Form](https://raw.githubusercontent.com/eschabell/jboss-bpm-in-action-travel-agency-demo/master/docs/demo-images/SpecialTripsUIform.png)
 
 ![Started Process](https://raw.githubusercontent.com/eschabell/jboss-bpm-in-action-travel-agency-demo/master/docs/demo-images/started-process.png)
+
+[![Video part 1](https://github.com/eschabell/jboss-bpm-in-action-travel-agency-demo/blob/master/docs/demo-images/video-part-1.png?raw=true)](http://vimeo.com/ericschabell/jboss-bpm-in-action-travel-agency-part-1)
+
+[![Video part 2](https://github.com/eschabell/jboss-bpm-in-action-travel-agency-demo/blob/master/docs/demo-images/video-part-2.png?raw=true)](http://vimeo.com/ericschabell/jboss-bpm-in-action-travel-agency-part-2)
+
+[![Video part 3](https://github.com/eschabell/jboss-bpm-in-action-travel-agency-demo/blob/master/docs/demo-images/video-part-3.png?raw=true)](http://vimeo.com/ericschabell/jboss-bpm-in-action-travel-agency-part-3)
+
+[![Video part 3](https://github.com/eschabell/jboss-bpm-in-action-travel-agency-demo/blob/master/docs/demo-images/video-part-4.png?raw=true)](http://vimeo.com/ericschabell/jboss-bpm-in-action-travel-agency-part-4)
+
 
