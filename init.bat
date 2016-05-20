@@ -170,7 +170,7 @@ echo =  You can now start the %PRODUCT% with:                         =
 echo =                                                                      =
 echo =   %SERVER_BIN%\standalone.bat                           =
 echo =                                                                      =
-echo =  Login into business central at:                                     =
+echo =  Log in into business central at:                                    =
 echo =                                                                      =
 echo =    http://localhost:8080/business-central  [u:erics / p:bpmsuite1!]  =
 echo =                                                                      =
