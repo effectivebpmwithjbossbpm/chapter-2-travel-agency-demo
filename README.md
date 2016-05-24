@@ -1,10 +1,11 @@
-JBoss BPM Suite Travel Agency Demo
-==================================
-This is an online employee travel booking process project. It contains multiple web services for looking up data for the process
-and rules to calculate pricing. Furthermore, there are several tasks that can be activated to evaluate pricing and to review the
-final booking data before completing the booking.
+JBoss BPM in Action - Travel Agency Demo
+========================================
+This is an example project for the JBoss BPM in Action book, used in chapter 2. This example
+project is an online employee travel booking process project. It contains multiple web services 
+for looking up data for the process and rules to calculate pricing. Furthermore, there are several 
+tasks that can be activated to evaluate pricing and to review the final booking data before completing 
+the booking. 
 
-Welcome to the JBoss BPM Travel Agency!
 
 Install on your machine
 -----------------------
