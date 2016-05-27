@@ -26,9 +26,14 @@ Install on your machine
 
 Booking a trip to Edinburgh (just one scenario)
 -----------------------------------------------
-1. Build & deploy project.
+1. Login to [http://localhost:8080/business-central](http://localhost:8080/business-central)
 
-2. Start process with following data in start form (either from JBoss BPM Suite dashboard or using external client
+  ```
+  - login for admin role (u:erics / p:bpmsuite1!)
+  ```
+2. Build & deploy project.
+
+3. Start process with following data in start form (either from JBoss BPM Suite dashboard or using external client
 	 UI deployed at [http://localhost:8080/external-client-ui-form-1.0](http://localhost:8080/external-client-ui-form-1.0)):
 
   ```
@@ -47,12 +52,6 @@ Booking a trip to Edinburgh (just one scenario)
   Preferred Data of Arrival: 2014-12-29
 
   Other Details / Notes: [any-text]
-  ```
-
-3. Login to [http://localhost:8080/business-central](http://localhost:8080/business-central)
-
-  ```
-  - login for admin role (u:erics / p:bpmsuite1!)
   ```
 
 4. Two web services will be run and a sub-process to calculate the cost before deciding it is not needed that this booking be
@@ -74,9 +73,6 @@ Booking a trip to Edinburgh (just one scenario)
 
 10. To trigger different path for successful booking of Flights, just change the 'Credit Card details' to use any 
     card number that does not begin with 1234....
-
-11. For details on demoing the compensation aspects of the Travel Agency demo project, 
-    see [docs/compensation-howto/README-COMPENSATION.md](docs/compensation-howto/README-COMPENSATION.md)
 
 
 Released versions
