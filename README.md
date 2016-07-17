@@ -1,15 +1,15 @@
-JBoss BPM in Action - Travel Agency Demo
-========================================
-This is an example project for the JBoss BPM in Action book, used in chapter 2. This example
-project is an online employee travel booking process project. It contains multiple web services 
-for looking up data for the process and rules to calculate pricing. Furthermore, there are several 
-tasks that can be activated to evaluate pricing and to review the final booking data before completing 
-the booking. 
+Chapter 2 - Travel Agency Demo
+==============================
+This is an example project for the Effective Business Process Management with JBoss BPM book, 
+used in chapter 2. This example project is an online employee travel booking process project. It 
+contains multiple web services for looking up data for the process and rules to calculate 
+pricing. Furthermore, there are several tasks that can be activated to evaluate pricing and to 
+review the final booking data before completing the booking. 
 
 
 Install on your machine
 -----------------------
-1. [Download and unzip.](https://github.com/eschabell/jboss-bpm-in-action-travel-agency-demo/archive/master.zip)
+1. [Download and unzip.](https://github.com/effectivebpmwithjbossbpm/chapter-2-travel-agency-demo/archive/master.zip)
 
 2. Add products to installs directory. For example download and add BPMS installer jar into the installs directory.
 
@@ -83,13 +83,13 @@ See the tagged releases for the following versions of the product:
 
 - v1.0 - JBoss BPM Suite 6.2, JBoss EAP 6.4.4 and travel agency installed.
 
-![Agency Process](https://github.com/eschabell/jboss-bpm-in-action-travel-agency-demo/blob/master/docs/demo-images/agency-process.png?raw=true)
+![Agency Process](https://github.com/effectivebpmwithjbossbpm/chapter-2-travel-agency-demo/blob/master/docs/demo-images/agency-process.png?raw=true)
 
-![Calculate Process](https://github.com/eschabell/jboss-bpm-in-action-travel-agency-demo/blob/master/docs/demo-images/calculate-process.png?raw=true)
+![Calculate Process](https://github.com/effectivebpmwithjbossbpm/chapter-2-travel-agency-demo/blob/master/docs/demo-images/calculate-process.png?raw=true)
 
-![Compensation](https://raw.githubusercontent.com/eschabell/jboss-bpm-in-action-travel-agency-demo/master/docs/demo-images/compensation-process.png?raw=true)
+![Compensation](https://raw.githubusercontent.com/effectivebpmwithjbossbpm/chapter-2-travel-agency-demo/master/docs/demo-images/compensation-process.png?raw=true)
 
-![Special Trips UI Form](https://raw.githubusercontent.com/eschabell/jboss-bpm-in-action-travel-agency-demo/master/docs/demo-images/SpecialTripsUIform.png)
+![Special Trips UI Form](https://raw.githubusercontent.com/effectivebpmwithjbossbpm/chapter-2-travel-agency-demo/master/docs/demo-images/SpecialTripsUIform.png)
 
-![Started Process](https://raw.githubusercontent.com/eschabell/jboss-bpm-in-action-travel-agency-demo/master/docs/demo-images/started-process.png)
+![Started Process](https://raw.githubusercontent.com/effectivebpmwithjbossbpm/chapter-2-travel-agency-demo/master/docs/demo-images/started-process.png)
 
