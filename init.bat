@@ -7,6 +7,7 @@ set AUTHORS=Nirja Patel, Shepherd Chengeta,
 set AUTHORS2=Andrew Block, Eric D. Schabell
 set PROJECT=git@github.com:effectivebpmwithjbossbpm/chapter-2-travel-agency-demo.git
 set PRODUCT=JBoss BPM Suite
+set VERSION=6.3
 set JBOSS_HOME=%PROJECT_HOME%target\jboss-bpmsuite-%VERSION%
 set SERVER_DIR=%JBOSS_HOME%\standalone\deployments\
 set SERVER_CONF=%JBOSS_HOME%\standalone\configuration\
@@ -17,31 +18,30 @@ set PRJ_DIR=%PROJECT_HOME%projects
 set BPMS=jboss-bpmsuite-6.3.0.GA-installer.jar
 set EAP=jboss-eap-6.4.0-installer.jar
 set EAP_PATCH=jboss-eap-6.4.7-patch.zip
-set VERSION=6.3
 
 REM wipe screen.
 cls
 
 echo.
 echo #################################################################
-echo ##                                                             ##   
-echo ##  Setting up the %DEMO%                          ##
-echo ##                                                             ##   
-echo ##                                                             ##   
-echo ##     ####  ####   #   #      ### #   # ##### ##### #####     ##
-echo ##     #   # #   # # # # #    #    #   #   #     #   #         ##
-echo ##     ####  ####  #  #  #     ##  #   #   #     #   ###       ##
-echo ##     #   # #     #     #       # #   #   #     #   #         ##
-echo ##     ####  #     #     #    ###  ##### #####   #   #####     ##
-echo ##                                                             ##   
-echo ##                                                             ##   
-echo ##  brought to you by,                                         ##   
-echo ##                     %AUTHORS%           ##
-echo ##                       %AUTHORS2%          ##
-echo ##                                                             ##   
-echo ##  %PROJECT%##
-echo ##                                                             ##   
-echo #################################################################
+echo ##                                                                  ##   
+echo ##  Setting up the %DEMO%                               ##
+echo ##                                                                  ##   
+echo ##                                                                  ##   
+echo ##     ####  ####   #   #      ### #   # ##### ##### #####          ##
+echo ##     #   # #   # # # # #    #    #   #   #     #   #              ##
+echo ##     ####  ####  #  #  #     ##  #   #   #     #   ###            ##
+echo ##     #   # #     #     #       # #   #   #     #   #              ##
+echo ##     ####  #     #     #    ###  ##### #####   #   #####          ##
+echo ##                                                                  ##   
+echo ##                                                                  ##   
+echo ##  brought to you by,                                              ##   
+echo ##                     %AUTHORS%                ##
+echo ##                       %AUTHORS2%               ##
+echo ##                                                                  ##   
+echo ##  %PROJECT% ##
+echo ##                                                                  ##   
+echo ######################################################################
 echo.
 
 REM make some checks first before proceeding.	
