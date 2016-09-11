@@ -5,9 +5,8 @@ set PROJECT_HOME=%~dp0
 set DEMO=Travel Agency Demo
 set AUTHORS=Nirja Patel, Shepherd Chengeta,
 set AUTHORS2=Andrew Block, Eric D. Schabell
-set PROJECT=git@github.com:eschabell/jboss-bpm-in-action-travel-agency-demo.git
+set PROJECT=git@github.com:effectivebpmwithjbossbpm/chapter-2-travel-agency-demo.git
 set PRODUCT=JBoss BPM Suite
-set VERSION=6.2
 set JBOSS_HOME=%PROJECT_HOME%target\jboss-bpmsuite-%VERSION%
 set SERVER_DIR=%JBOSS_HOME%\standalone\deployments\
 set SERVER_CONF=%JBOSS_HOME%\standalone\configuration\
@@ -15,9 +14,10 @@ set SERVER_BIN=%JBOSS_HOME%\bin
 set SRC_DIR=%PROJECT_HOME%installs
 set SUPPORT_DIR=%PROJECT_HOME%support
 set PRJ_DIR=%PROJECT_HOME%projects
-set BPMS=jboss-bpmsuite-6.2.0.GA-installer.jar
+set BPMS=jboss-bpmsuite-6.3.0.GA-installer.jar
 set EAP=jboss-eap-6.4.0-installer.jar
-set EAP_PATCH=jboss-eap-6.4.4-patch.zip
+set EAP_PATCH=jboss-eap-6.4.7-patch.zip
+set VERSION=6.3
 
 REM wipe screen.
 cls

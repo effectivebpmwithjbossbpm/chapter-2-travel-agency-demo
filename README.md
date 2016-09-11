@@ -7,8 +7,8 @@ pricing. Furthermore, there are several tasks that can be activated to evaluate 
 review the final booking data before completing the booking. 
 
 
-Install on your machine
------------------------
+Option 1 - Install on your machine
+----------------------------------
 1. [Download and unzip.](https://github.com/effectivebpmwithjbossbpm/chapter-2-travel-agency-demo/archive/master.zip)
 
 2. Add products to installs directory. For example download and add BPMS installer jar into the installs directory.
@@ -22,6 +22,31 @@ Install on your machine
     ```
      - login for admin and other roles (u:erics / p:bpmsuite1!)
     ```
+
+Option 2 - Generate containerized installation
+----------------------------------------------
+The following steps can be used to configure and run the demo in a container
+
+1. [Download and unzip.](https://github.com/effectivebpmwithjbossbpm/chapter-2-travel-agency-demo/archive/master.zip)
+
+2. Add product installer to installs directory.
+
+3. Build demo image.
+
+	```
+	docker build -t effectivebpmwithjbossbpm/chapter-2-travel-agency-demo .
+	```
+4. Start demo container
+
+	```
+	docker run -it -p 8080:8080 -p 9990:9990 effectivebpmwithjbossbpm/chapter-2-travel-agency-demo
+	```
+5. Login to http://&lt;DOCKER_HOST&gt;:8080/business-central (u:erics / p:bpmsuite1!) 
+
+   ```
+   determine DOCKER_HOST with $ docker-machine env
+   ```
+6. Start process with data in external web form: http://&lt;DOCKER_HOST&gt;:8080/external-client-ui-form-1.0
 
 
 Booking a trip to Edinburgh (just one scenario)
@@ -78,6 +103,8 @@ Booking a trip to Edinburgh (just one scenario)
 Released versions
 -----------------
 See the tagged releases for the following versions of the product:
+
+- v1.2 - JBoss BPM Suite 6.3, JBoss EAP 6.4.7 with travel agency installed and containerized installation option.
 
 - v1.1 - JBoss BPM Suite 6.2, JBoss EAP 6.4.4 and new travel agency process updates installed.
 
