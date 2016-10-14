@@ -5,7 +5,7 @@ set PROJECT_HOME=%~dp0
 set DEMO=Travel Agency Demo
 set AUTHORS=Nirja Patel, Shepherd Chengeta,
 set AUTHORS2=Andrew Block, Eric D. Schabell
-set PROJECT=git@github.com:effectivebpmwithjbossbpm/chapter-2-travel-agency-demo.git
+set PROJECT=git@github.com:effectivebpmwithjbossbpm\chapter-2-travel-agency-demo.git
 set PRODUCT=JBoss BPM Suite
 set VERSION=6.3
 set JBOSS_HOME=%PROJECT_HOME%target\jboss-bpmsuite-%VERSION%
@@ -85,7 +85,7 @@ if exist %JBOSS_HOME% (
 REM Run installers.
 echo EAP installer running now...
 echo.
-call java -jar %SRC_DIR%/%EAP% %SUPPORT_DIR%\installation-eap -variablefile %SUPPORT_DIR%\installation-eap.variables
+call java -jar %SRC_DIR%\%EAP% %SUPPORT_DIR%\installation-eap -variablefile %SUPPORT_DIR%\installation-eap.variables
 
 
 if not "%ERRORLEVEL%" == "0" (
@@ -100,7 +100,7 @@ call set NOPAUSE=true
 echo.
 echo Applying JBoss EAP patch now...
 echo.
-call %JBOSS_HOME%/bin/jboss-cli.bat --command="patch apply %SRC_DIR%/%EAP_PATCH% --override-all"
+call %JBOSS_HOME%\bin\jboss-cli.bat --command="patch apply %SRC_DIR%\%EAP_PATCH% --override-all"
 
 if not "%ERRORLEVEL%" == "0" (
   echo.
@@ -111,7 +111,7 @@ if not "%ERRORLEVEL%" == "0" (
 
 echo JBoss BPM Suite installer running now...
 echo.
-call java -jar %SRC_DIR%/%BPMS% %SUPPORT_DIR%\installation-bpms -variablefile %SUPPORT_DIR%\installation-bpms.variables
+call java -jar %SRC_DIR%\%BPMS% %SUPPORT_DIR%\installation-bpms -variablefile %SUPPORT_DIR%\installation-bpms.variables
 
 if not "%ERRORLEVEL%" == "0" (
 	echo Error Occurred During %PRODUCT% Installation!
