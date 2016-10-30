@@ -2,7 +2,7 @@
 setlocal
 
 set PROJECT_HOME=%~dp0
-set DEMO=Travel Agency Demo
+set DEMO=Chapter 2 Travel Agency Demo
 set AUTHORS=Nirja Patel, Shepherd Chengeta,
 set AUTHORS2=Andrew Block, Eric D. Schabell
 set PROJECT=git@github.com:effectivebpmwithjbossbpm\chapter-2-travel-agency-demo.git
@@ -25,7 +25,7 @@ cls
 echo.
 echo #################################################################
 echo ##                                                                  ##   
-echo ##  Setting up the %DEMO%                               ##
+echo ##  Setting up the %DEMO%                     ##
 echo ##                                                                  ##   
 echo ##                                                                  ##   
 echo ##     ####  ####   #   #      ### #   # ##### ##### #####          ##
