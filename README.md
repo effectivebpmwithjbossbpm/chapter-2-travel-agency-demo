@@ -17,11 +17,14 @@ Option 1 - Install on your machine
 
 4. Start JBoss BPMS Server by running 'standalone.sh' or 'standalone.bat' in the <path-to-project>/target/jboss-eap-6.4/bin directory.
 
-5. Login to [http://localhost:8080/business-central](http://localhost:8080/business-central)
+Login to [http://localhost:8080/business-central](http://localhost:8080/business-central)
 
     ```
      - login for admin and other roles (u:erics / p:bpmsuite1!)
     ```
+
+Start process with data in external web form: [http://localhost:8080/external-client-ui-form-1.0](http://localhost:8080/external-client-ui-form-1.0)
+
 
 Option 2 - Generate containerized installation
 ----------------------------------------------
@@ -41,12 +44,10 @@ The following steps can be used to configure and run the demo in a container
 	```
 	docker run -it -p 8080:8080 -p 9990:9990 effectivebpmwithjbossbpm/chapter-2-travel-agency-demo
 	```
-5. Login to http://&lt;DOCKER_HOST&gt;:8080/business-central (u:erics / p:bpmsuite1!) 
 
-   ```
-   determine DOCKER_HOST with $ docker-machine env
-   ```
-6. Start process with data in external web form: http://&lt;DOCKER_HOST&gt;:8080/external-client-ui-form-1.0
+Login to http://localhost:8080/business-central (u:erics / p:bpmsuite1!) 
+
+Start process with data in external web form: http://localhost:8080/external-client-ui-form-1.0
 
 
 Booking a trip to Edinburgh (just one scenario)
@@ -56,6 +57,7 @@ Booking a trip to Edinburgh (just one scenario)
   ```
   - login for admin role (u:erics / p:bpmsuite1!)
   ```
+
 2. Build & deploy project.
 
 3. Start process with following data in start form (either from JBoss BPM Suite dashboard or using external client
@@ -104,11 +106,13 @@ Released versions
 -----------------
 See the tagged releases for the following versions of the product:
 
-- v1.2 - JBoss BPM Suite 6.3, JBoss EAP 6.4.7 with travel agency installed and containerized installation option.
+- v1.3 - JBoss BPM Suite 6.4.0, JBoss EAP 7.0.0 with travel agency installed and containerized installation option.
 
-- v1.1 - JBoss BPM Suite 6.2, JBoss EAP 6.4.4 and new travel agency process updates installed.
+- v1.2 - JBoss BPM Suite 6.3.0, JBoss EAP 6.4.7 with travel agency installed and containerized installation option.
 
-- v1.0 - JBoss BPM Suite 6.2, JBoss EAP 6.4.4 and travel agency installed.
+- v1.1 - JBoss BPM Suite 6.2.0, JBoss EAP 6.4.4 and new travel agency process updates installed.
+
+- v1.0 - JBoss BPM Suite 6.2.0, JBoss EAP 6.4.4 and travel agency installed.
 
 ![Agency Process](https://github.com/effectivebpmwithjbossbpm/chapter-2-travel-agency-demo/blob/master/docs/demo-images/agency-process.png?raw=true)
 
