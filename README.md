@@ -11,7 +11,7 @@ Option 1 - Install on your machine
 ----------------------------------
 1. [Download and unzip.](https://github.com/effectivebpmwithjbossbpm/chapter-2-travel-agency-demo/archive/master.zip)
 
-2. Add products to installs directory. For example download and add BPMS installer jar into the installs directory.
+2. Download JBoss EAP & JBoss BPM Suite, add to installs directory (see installs/README).
 
 3. Run 'init.sh' or 'init.bat' file. 'init.bat' must be run with Administrative privileges.
 
@@ -32,7 +32,7 @@ The following steps can be used to configure and run the demo in a container
 
 1. [Download and unzip.](https://github.com/effectivebpmwithjbossbpm/chapter-2-travel-agency-demo/archive/master.zip)
 
-2. Add product installer to installs directory.
+2. Download JBoss EAP & JBoss BPM Suite, add to installs directory (see installs/README).
 
 3. Build demo image.
 
