@@ -42,12 +42,32 @@ The following steps can be used to configure and run the demo in a container
 4. Start demo container
 
 	```
-	docker run -it -p 8080:8080 -p 9990:9990 effectivebpmwithjbossbpm/chapter-2-travel-agency-demo
+	docker run -it -p 8080:8080 -p 9990:9990 -p 8001:8001 effectivebpmwithjbossbpm/chapter-2-travel-agency-demo
 	```
 
 Login to http://localhost:8080/business-central (u:erics / p:bpmsuite1!) 
 
 Start process with data in external web form: http://localhost:8080/external-client-ui-form-1.0
+
+Read-write access to container JBoss BPM Suite git repo is available through ssh:
+
+   ```
+   $ git clone ssh://erics@localhost:8001/specialtripsagency
+
+   Cloning into 'specialtripsagency'...
+   The authenticity of host '[localhost]:8001 ([::1]:8001)' can't be established.
+   DSA key fingerprint is SHA256:ok9ukS2j16
+   Are you sure you want to continue connecting (yes/no)? yes
+
+   Warning: Permanently added '[localhost]:8001' (DSA) to the list of known hosts.
+   Password authentication
+   Password: bpmsuite1!
+
+   Receiving objects: 100% (3067/3067), 553.36 KiB | 0 bytes/s, done.
+   remote: Total 3067 (delta 0), reused 3067 (delta 0)
+   Resolving deltas: 100% (1687/1687), done.
+   ```
+
 
 
 Booking a trip to Edinburgh (just one scenario)
