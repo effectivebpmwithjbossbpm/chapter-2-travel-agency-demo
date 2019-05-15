@@ -19,9 +19,9 @@ Option 1 - Install on your machine
 
 Login to [http://localhost:8080/business-central](http://localhost:8080/business-central)
 
-    ```
-     - login for admin and other roles (u:erics / p:bpmsuite1!)
-    ```
+```
+  - login for admin and other roles (u:erics / p:bpmsuite1!)
+```
 
 Start process with data in external web form: [http://localhost:8080/external-client-ui-form-1.0](http://localhost:8080/external-client-ui-form-1.0)
 
